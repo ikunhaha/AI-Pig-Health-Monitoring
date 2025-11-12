@@ -11,17 +11,17 @@ markdown
 
 ## 文件结构
 AI-Pig-Health-Monitoring/
-│
-├── pig_farm_data.csv # 模拟生成的猪场数据集
-├── pig_health_predictor.pkl # 训练好的AI模型文件
-├── create_data.py # 数据生成脚本
-├── train_ai_model.py # 模型训练与评估脚本
-├── create_visualizations.py # 结果可视化脚本
-└── README.md # 项目说明文件 (本文件)
+
+pig_farm_data.csv # 模拟生成的猪场数据集
+pig_health_predictor.pkl # 训练好的AI模型文件
+create_data.py # 数据生成脚本
+train_ai_model.py # 模型训练与评估脚本
+create_visualizations.py # 结果可视化脚本
+README.md # 项目说明文件 (本文件)
 
 
 ## 快速开始
-1.  **克隆本项目**: `git clone https://github.com/[你的用户名]/AI-Pig-Health-Monitoring.git`
+1.  **克隆本项目**: `git clone https://github.com/[ikunhaha]/AI-Pig-Health-Monitoring.git`
 2.  **安装依赖**: `pip install pandas numpy scikit-learn matplotlib`
 3.  **运行流程**:
     - 首先运行 `python create_data.py` 生成数据。
@@ -29,4 +29,4 @@ AI-Pig-Health-Monitoring/
     - 最后运行 `python create_visualizations.py` 生成分析图表。
 
 ## 项目背景
-此项目作为【你的论文题目】的支撑材料，演示了如何将畜牧学知识转化为数据标准，并利用入门级AI工具实现疫病风险预警的逻辑。
+此项目作为【畜牧养殖智慧化的基础实践方向——基于《关于大力发展智慧农业的指导意见》的入门级案例分析】的支撑材料，演示了如何将畜牧学知识转化为数据标准，并利用入门级AI工具实现疫病风险预警的逻辑。
